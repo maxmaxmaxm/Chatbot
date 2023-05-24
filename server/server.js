@@ -10,6 +10,8 @@ const configuration = new Configuration({
 });
 
 const openai = new OpenAIApi(configuration);
+const apiUrl = 'https://api.openai.com/v1/completions';
+
 
 const app = express()
 app.use(cors())
